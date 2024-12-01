@@ -7,11 +7,16 @@
 get_palette(palette_name)
 }
 \arguments{
-\item{palette_name}{A string representing the name of the palette (e.g., "default", "venti").}
+\item{palette_name}{A string representing the name of the palette (e.g. "default").}
 }
 \value{
 A vector of hex color codes for the requested palette.
 }
 \description{
-This function returns the color palette based on the given name.
+This function returns a color palette by its name.
+The palette name must match one of the available palettes in the package.
+}
+\examples{
+# Get the "hsbc" color palette
+hsbc_palette <- get_palette("hsbc")
 }
