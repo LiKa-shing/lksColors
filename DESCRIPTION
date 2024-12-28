@@ -1,0 +1,9 @@
+Package: lksColors
+Type: Package
+Title: Color Palettes for Visualizations
+Version: 0.0.2
+Author: Li Ka-shing
+Maintainer: Li Ka-shing
+Description: This package provides a variety of color palettes for use in R visualizations.
+License: MIT LICENSE
+RoxygenNote: 7.3.2
